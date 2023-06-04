@@ -22,5 +22,6 @@ class Product < ActiveRecord::Base
         Review.all.map do |rev|
          all_ratings << rev.star_rating
         end
-
+    end
 end
+# "Jamie Kuhn"
