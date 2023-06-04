@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
         self.products.order('reviews.star_rating DESC').first
     end
 
-    def remove_reviews(prod)
-        self.reviews.where(product_id: prod.id).destroy_all
+    def remove_reviews(product)
+        self.reviews.where(product_id: product.id).destroy_all
     end
 end
