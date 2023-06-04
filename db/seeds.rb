@@ -1,10 +1,12 @@
-# This will delete any existing rows from the Product and User tables
-# so you can run the seed file multiple times without having duplicate entries in your database
-puts "Deleting old data..."
-Product.destroy_all
-User.destroy_all
+puts "Destroying old data..."
+User.delete_all
+Product.delete_all
+Review.delete_all
 
-puts "Creating users..."
-user1 = User.create(name: Faker::Name.name)
-
-puts "Seeding done!"
+puts "Seeding users..."
+5.times do
+  User.create(
+    name: Faker::Name.name
+  )
+end
+puts "Done seeding users..."
