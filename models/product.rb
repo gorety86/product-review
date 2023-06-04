@@ -12,13 +12,15 @@ class Product < ActiveRecord::Base
     end
 
     def print_all_reviews
-        self.all.each do |review|
+        Review.all.each do |review|
          review.print_review
         end
     end
 
-    # def average_rating
-    #     self.reviews.average(:star_rating).to_float
-    # end
+    def average_rating
+        all_ratings = []
+        Review.all.map do |rev|
+         all_ratings << rev.star_rating
+        end
 
 end
