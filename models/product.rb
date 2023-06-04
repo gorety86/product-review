@@ -12,8 +12,8 @@ class Product < ActiveRecord::Base
     end
 
     def print_all_reviews
-        review.all.each do |rev|
-         puts   rev.print_review
+        self.all.each do |rev|
+         rev.print_review
         end
     end
 end
