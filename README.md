@@ -15,10 +15,10 @@ Links to an external site.before you start coding. You are required to include i
 
 This assignment focused on the following topics
 
-    Active Record Migrations
-    Active Record Associations
-    Class and Instance Methods
-    Active Record Querying
+    -Active Record Migrations
+    -Active Record Associations
+    -Class and Instance Methods
+    -Active Record Querying
  
 # Instructions
 
@@ -45,15 +45,11 @@ Before you submit! Save and run your code to verify that it works as you expect.
 
 -Use the notation # for instance methods, and .(dot) for class methods.
 
-Feel free to build out any helper methods if needed.
+-Feel free to build out any helper methods if needed.
 
-Remember: Active Record gives your classes access to a lot of methods already!
+Remember: Active Record gives your classes access to a lot of methods already! Keep in mind what methods Active Record gives you access to on each of your classes when you're approaching the deliverables below.
 
-Keep in mind what methods Active Record gives you access to on each of your
-
-classes when you're approaching the deliverables below.
-
-   # Migrations
+# Migrations
 
 Before working on the rest of the deliverables, you will need to create a migration for the reviews table.
 
@@ -64,7 +60,7 @@ Before working on the rest of the deliverables, you will need to create a migrat
 
 After creating and running your migration, create your Review class, and use the seeds.rb file to create Review instances so you can test your code. Once you've set up your reviews table, work on building out the following deliverables.
 
-    # Object Association Methods
+# Object Association Methods
 
 Use Active Record association macros and Active Record query methods where appropriate (i.e. has_many, has_many through, and belongs_to).
 
