@@ -6,11 +6,10 @@ For this assignment, we'll be working with an e-commerce domain. We'll be focusi
 
 Product - User is a many to many relationship.
 
-Note: You should design your domain/Entity Relationship Diagram(ERD) using any Unified Modelling Language such as starUML
+Here's what the completed ERD will look like after you've created the additional migrations:
 
-Links to an external site.before you start coding. You are required to include it in your README.
+![product-review ERD](https://drawsql.app/teams/wagutu/diagrams/user-table)
 
- 
 # Topics
 
 This assignment focused on the following topics
